@@ -1,6 +1,6 @@
 from playwright.sync_api import Page
 
-base_url = 'http://localhost:8080'
+base_url = 'https://demo.defectdojo.org/'
 
 class DefectDojoPage:
     """Page model for the base DefectDojo application."""
