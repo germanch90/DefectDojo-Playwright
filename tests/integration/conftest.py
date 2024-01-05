@@ -16,3 +16,4 @@ def valid_password():
     pw = os.getenv('DD_TEST_PASSWORD')
     if not pw:
         raise ValueError("Environment variable for DD_TEST_PASSWORD is not set.")
+    return pw
